@@ -30,13 +30,38 @@ inquirer
         },
         {
             type: 'input',
+            name: 'installation',
+            message: 'Explain the installation process',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Explain the usage of code',
+        },
+        {
+            type: 'input',
+            name: 'contributng',
+            message: 'Explain contributing code',
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Explain tests done in Node',
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'What is your email adress?',
         },
         {
             type: 'input',
+            name: 'phone',
+            message: 'What is your phone number?',
+        },
+        {
+            type: 'input',
             name: 'github',
-            message: 'What is your GitHub username',
+            message: 'What is your GitHub username?',
         },
         {
             type: 'list',
