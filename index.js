@@ -40,7 +40,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'contributng',
+            name: 'contributing',
             message: 'Explain contributing code',
         },
         {
@@ -79,7 +79,7 @@ inquirer
         const mdPageContent = generateMarkdown(answers);
         console.log(mdPageContent)
 
-        fs.writeFile('./output/index2.md', mdPageContent, (err) =>
+        fs.writeFile('./output/indexvid.md', mdPageContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README.md!')
         );
     });

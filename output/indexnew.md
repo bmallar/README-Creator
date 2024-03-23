@@ -2,12 +2,8 @@
   ## Table of Contents
 
 1. [Description](#description)
-2. [Questions](#questions)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [Tests](#tests)
-7. [License](#license)
+2. [Email](#email)
+3. [Github](#github)
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
@@ -18,7 +14,7 @@
   ## Usage
   In my indexjs file I have inquirer, fs and generate markdown linked so that those all interact with this page, then I have all my prompts to ask questions in the command line. after that is the .then answers function so that all my answers go to my generate markdown file, lastly is the fs write file to make a new readme file everytime the questions are filled out
   ## Contributing
-   In my generate markdown file I use markdown syntax to make my markdown look cleaner. I also set two if statements to interact with what button I want printed to my page
+  In my generate markdown file I use markdown syntax to make my markdown look cleaner. I also set two if statements to interact with what button I want printed to my page
   
   ## Tests
   I used node to test if my code was working how I intend it to. For example after I wrote my questions I did a node index to see if my questions displayed and interacted as intended
@@ -30,6 +26,3 @@
   - 815-501-5666
 ## License
 License Link: https://opensource.org/licenses/MIT
-
-1. [My repo Link](https://github.com/bmallar/README-Creator)
-2. [My video link](https://drive.google.com/file/d/18b5zajMlXSa1bqINpZ31olMabh7pIPYZ/view)
